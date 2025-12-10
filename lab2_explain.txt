@@ -1,0 +1,7 @@
+Introduction :
+
+DDA (Digital Differential Analyzer) is a line drawing algorithm used in computer graphics to generate a line segment between two specified endpoints. It is a simple and efficient algorithm that works by using the incremental difference between the x-coordinates and y-coordinates of the two endpoints to plot the line.
+
+The steps involved in DDA line generation algorithm are:
+
+Input the two endpoints of the line segment, (x1,y1) and (x2,y2). Calculate the difference between the x-coordinates and y-coordinates of the endpoints as dx and dy respectively. Calculate the slope of the line as m = dy/dx. Set the initial point of the line as (x1,y1). Loop through the x-coordinates of the line, incrementing by one each time, and calculate the corresponding y-coordinate using the equation y = y1 + m(x - x1). Plot the pixel at the calculated (x,y) coordinate. Repeat steps 5 and 6 until the endpoint (x2,y2) is reached.
